@@ -11,9 +11,10 @@ end
 end
 t;
 plot(n,t)
-n=-15:25;
+m=-15:25;
 x1=sin(pi*n/17);
+p=0:50;
 x2=cos(pi*n/sqrt(23));
-plot(n,x1,n,x2)
+plot(m,x1,p,x2)
 subplot(2,1,1),plot(x1),subplot(2,1,2),plot(x2)
 subplot(2,1,1),stem(x1),subplot(2,1,2),stem(x2)
