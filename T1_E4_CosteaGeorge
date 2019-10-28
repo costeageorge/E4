@@ -1,7 +1,7 @@
 z=[0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0];
 n=0:20;
 m=(-5:15);
-subplot(2,1,1),stem(z,n),subplot(2,1,2),stem(m,n)
+subplot(2,1,1),stem(z,n),subplot(2,1,2),stem(z,m)
 n=0:20;
 t=10-n;
 for i=1:1:21
